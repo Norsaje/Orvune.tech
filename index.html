@@ -2,164 +2,167 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Orvune – AI‑Driven Innovation</title>
-    <!-- Import Manrope font for modern typography -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orvune — AI‑Driven Innovation</title>
+
+    <meta name="description" content="Orvune builds AI solutions that are secure, scalable, and human‑centered. ML & AI, Integration & MLOps, Security, R&D, and Consulting." />
+    <link rel="canonical" href="https://orvune.com/index.html" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Orvune — AI‑Driven Innovation" />
+    <meta property="og:description" content="Secure, scalable, human‑centered AI solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://orvune.com/index.html" />
+    <meta property="og:image" content="images/hero-bg.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Orvune — AI‑Driven Innovation" />
+    <meta name="twitter:description" content="Secure, scalable, human‑centered AI solutions." />
+    <meta name="theme-color" content="#0f172a" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="prefetch" href="ml-ai.html" />
+    <link rel="prefetch" href="integration.html" />
+    <link rel="prefetch" href="security.html" />
+    <link rel="prefetch" href="research.html" />
+    <link rel="prefetch" href="consulting.html" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="logo"><a href="index.html">Orvune</a></div>
-      <nav class="nav">
-        <a href="index.html" class="active">Home</a>
-        <a href="ml-ai.html">ML &amp; AI</a>
-        <a href="integration.html">Integration</a>
-        <a href="security.html">Security</a>
-        <a href="research.html">R&amp;D</a>
-        <a href="consulting.html">Consulting</a>
-      </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="header" role="banner">
+      <div class="header-inner">
+        <div class="logo"><a href="index.html" aria-label="Orvune homepage">Orvune</a></div>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+        </button>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
+          <a href="index.html" class="active" aria-current="page">Home</a>
+          <a href="ml-ai.html">ML &amp; AI</a>
+          <a href="integration.html">Integration</a>
+          <a href="security.html">Security</a>
+          <a href="research.html">R&amp;D</a>
+          <a href="consulting.html">Consulting</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-pressed="false" title="Toggle dark mode" aria-label="Toggle dark mode">
+          <span class="sr-only">Toggle theme</span>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zm10.48 14.32l1.79 1.79 1.79-1.79-1.79-1.8-1.79 1.8zM12 5.5A6.5 6.5 0 1012 18.5 6.5 6.5 0 0012 5.5zm0-5.5h-1v3h1V0zm0 21h-1v3h1v-3zM0 11h3v1H0v-1zm21 0h3v1h-3v-1zM4.84 17.24l-1.8 1.8 1.8 1.79 1.79-1.79-1.79-1.8zM19.16 6.76l1.8-1.8-1.8-1.79-1.79 1.79 1.79 1.8z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M21.64 13A9 9 0 1111 2.36 7 7 0 0021.64 13z"/></svg>
+        </button>
+      </div>
+      <div class="progress" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
     </header>
 
-    <!-- Hero section with interactive radial gradient -->
-    <section
-      class="hero"
-      style="--bg-image: url('images/hero-bg.png');"
-    >
-      <div class="hero-content">
-        <h1 class="hero-title">
-          Empowering Your Vision<br />with AI‑Driven Solutions
-        </h1>
-        <p class="hero-subtitle">
-          We build and integrate cutting‑edge machine intelligence to
-          transform industries and deliver lasting impact.
-        </p>
-        <a href="#services" class="cta-button">Explore Services</a>
-      </div>
-    </section>
+    <main id="main" tabindex="-1">
+      <section class="hero" style="--bg-image: url('images/hero-bg.png');">
+        <div class="hero-content">
+          <h1 class="hero-title">Empowering Your Vision<br />with AI‑Driven Solutions</h1>
+          <p class="hero-subtitle">We build and integrate cutting‑edge machine intelligence to transform industries and deliver lasting impact.</p>
+          <div class="cta-actions">
+            <a href="#services" class="btn btn-ghost" data-magnetic>Explore Services</a>
+            <a href="#" class="btn btn-primary" data-modal-target="#contact-modal" data-magnetic>Get in touch</a>
+          </div>
+        </div>
+      </section>
 
-    <!-- Our Expertise introduction -->
-    <section class="section" data-reveal>
-      <h2 class="section-title">Our Expertise</h2>
-      <div class="content" style="text-align: center; max-width: 800px; margin: 0 auto;">
-        <p>
-          Orvune is a pioneering AI startup pushing the boundaries of machine
-          intelligence. Our team combines deep expertise in algorithms,
-          engineering, and security to deliver solutions that are robust,
-          scalable and responsible. We partner with organisations of all sizes
-          to harness the power of data and accelerate innovation.
-        </p>
-      </div>
-    </section>
+      <section class="section" data-reveal>
+        <div class="container">
+          <h2 class="section-title">Our Expertise</h2>
+          <p style="text-align:center; max-width: 800px; margin: 0 auto;">
+            Secure, scalable and responsible AI across the full lifecycle: research, build, integrate and operate.
+          </p>
+        </div>
+      </section>
 
-    <!-- Services overview cards -->
-    <section class="section dark" id="services" data-reveal>
-      <h2 class="section-title">What We Do</h2>
-      <div class="card-grid">
-        <!-- ML & AI -->
-        <div class="card">
-          <div class="card-icon">🧠</div>
-          <h3 class="card-title">ML &amp; AI</h3>
-          <p class="card-text">
-            Build bespoke machine learning models and AI applications tailored
-            to your business challenges.
-          </p>
-          <a href="ml-ai.html" class="card-link">Learn more</a>
+      <section class="section dark" id="services" data-reveal>
+        <div class="container">
+          <h2 class="section-title">What We Do</h2>
+          <div class="card-grid">
+            <div class="card">
+              <h3 class="card-title">ML &amp; AI</h3>
+              <p class="card-text">Custom models and AI apps for your domain.</p>
+              <a href="ml-ai.html" class="btn btn-ghost" data-magnetic>Learn more</a>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Integration &amp; MLOps</h3>
+              <p class="card-text">Seamless pipelines from idea to production.</p>
+              <a href="integration.html" class="btn btn-ghost" data-magnetic>Learn more</a>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Security &amp; MLSecOps</h3>
+              <p class="card-text">Defense‑in‑depth for AI systems and data.</p>
+              <a href="security.html" class="btn btn-ghost" data-magnetic>Learn more</a>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Research &amp; Innovation</h3>
+              <p class="card-text">From ideas to validated breakthroughs.</p>
+              <a href="research.html" class="btn btn-ghost" data-magnetic>Learn more</a>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Consulting &amp; Strategy</h3>
+              <p class="card-text">Roadmaps, ROI and change management.</p>
+              <a href="consulting.html" class="btn btn-ghost" data-magnetic>Learn more</a>
+            </div>
+          </div>
         </div>
-        <!-- Integration -->
-        <div class="card">
-          <div class="card-icon">🔗</div>
-          <h3 class="card-title">Integration &amp; MLOps</h3>
-          <p class="card-text">
-            Seamlessly integrate AI into your workflow and deploy models
-            securely at scale.
-          </p>
-          <a href="integration.html" class="card-link">Learn more</a>
-        </div>
-        <!-- Security -->
-        <div class="card">
-          <div class="card-icon">🔒</div>
-          <h3 class="card-title">Security &amp; MLSecOps</h3>
-          <p class="card-text">
-            Protect your AI systems from adversarial threats and ensure
-            compliance with industry standards.
-          </p>
-          <a href="security.html" class="card-link">Learn more</a>
-        </div>
-        <!-- Research -->
-        <div class="card">
-          <div class="card-icon">🧪</div>
-          <h3 class="card-title">Research &amp; Innovation</h3>
-          <p class="card-text">
-            Explore new algorithms and push the frontiers of AI with our
-            dedicated R&amp;D team.
-          </p>
-          <a href="research.html" class="card-link">Learn more</a>
-        </div>
-        <!-- Consulting -->
-        <div class="card">
-          <div class="card-icon">🤝</div>
-          <h3 class="card-title">Consulting &amp; Strategy</h3>
-          <p class="card-text">
-            Partner with experts to define your AI roadmap and turn ideas
-            into production‑ready solutions.
-          </p>
-          <a href="consulting.html" class="card-link">Learn more</a>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Core values section -->
-    <section class="section" data-reveal>
-      <h2 class="section-title">Our Values</h2>
-      <div class="card-grid" style="justify-content: space-around;">
-        <div class="card">
-          <div class="card-icon">✨</div>
-          <h3 class="card-title">Innovation</h3>
-          <p class="card-text">
-            We embrace experimentation and creativity, constantly seeking new
-            ways to solve problems and delight our clients.
-          </p>
+      <section class="cta-band" data-reveal>
+        <div class="container">
+          <h2>Ready to build responsibly with AI?</h2>
+          <div class="cta-actions">
+            <a href="consulting.html" class="btn btn-ghost" data-magnetic>Consulting</a>
+            <a href="#" class="btn btn-primary" data-modal-target="#contact-modal" data-magnetic>Let’s talk</a>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">🛡️</div>
-          <h3 class="card-title">Security</h3>
-          <p class="card-text">
-            Trust is paramount. We build AI that respects privacy, mitigates
-            risk and meets rigorous security standards.
-          </p>
-        </div>
-        <div class="card">
-          <div class="card-icon">🤝</div>
-          <h3 class="card-title">Collaboration</h3>
-          <p class="card-text">
-            Success comes from working together. We collaborate openly with
-            clients and partners to achieve shared goals.
-          </p>
-        </div>
-        <div class="card">
-          <div class="card-icon">🌍</div>
-          <h3 class="card-title">Impact</h3>
-          <p class="card-text">
-            Our work aims to positively influence society and create value
-            that endures for future generations.
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <p>
-        &copy; 2025 Orvune. All rights reserved. <br />
-        Built with passion and innovation.
-      </p>
+    <footer class="footer" role="contentinfo">
+      <p>&copy; 2025 Orvune. All rights reserved.<br/>Built with passion and innovation.</p>
+      <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
     </footer>
-    <script src="script.js"></script>
+
+    <!-- Contact modal -->
+    <div class="modal" id="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-title" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-dialog" role="document">
+        <header class="modal-header">
+          <h3 id="contact-title">Let’s talk</h3>
+          <button class="modal-close" data-modal-close aria-label="Close">×</button>
+        </header>
+        <div class="modal-body">
+          <form class="form" id="contact-form" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+              <span class="field-error" id="err-name" aria-live="polite"></span>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+              <span class="field-error" id="err-email" aria-live="polite"></span>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <span class="field-error" id="err-message" aria-live="polite"></span>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <noscript>
+      <style>.to-reveal { opacity: 1 !important; transform: none !important; }</style>
+    </noscript>
+
+    <script src="script.js" defer></script>
   </body>
-</html>
+  </html>
+
